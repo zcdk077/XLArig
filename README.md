@@ -45,7 +45,7 @@ wget https://raw.githubusercontent.com/zcdk077/XLArig-termux/master/build-androi
 chmod +x build-android.sh
 ./build-android.sh
 rm -r build-android.sh
-cd xmrig
+cd XLArig
 ```
 
 ## [ Edit Wallet ]
