@@ -31,9 +31,8 @@ sleep 3
 set -e
 echo "${LYLO}Tunggu sebentar${N}"
 sleep 2
-echo "${LYLO}Kita update dan install library terlebih dahulu${N}"
+echo "${LYLO}Kita install library terlebih dahulu${N}"
 sleep 3
-pkg update && pkg upgrade -y
 pkg install git nano build-essential cmake automake libtool autoconf -y
 echo "${LYLO}Cloning XLArig${N}"
 sleep 5
