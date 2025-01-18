@@ -44,4 +44,4 @@ clear
 echo "            ${PURP}Salam Receh Bosku . . . .${N}"
 sleep 2
 
-~/XLArig/build/XLArig -c ~/XLArig/config.json
+~/XLArig/build/xlarig -c ~/XLArig/config.json
