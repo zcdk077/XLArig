@@ -42,6 +42,9 @@ echo "${RED}1${N}"
 sleep 1
 clear
 echo "            ${PURP}Salam Receh Bosku . . . .${N}"
-sleep 2
+echo ""
+echo ""
+echo ""
+sleep 3
 
 ~/XLArig/build/xlarig -c ~/XLArig/config.json
