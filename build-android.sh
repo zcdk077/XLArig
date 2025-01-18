@@ -61,7 +61,7 @@ sleep 3
 echo "${LYLO}Proses clone konfigurasi${N}"
 sleep 3
 cd
-cd xmrig
+cd XLArig
 wget https://raw.githubusercontent.com/zcdk077/XLArig-termux/master/start.sh
 chmod +x start.sh
 wget https://raw.githubusercontent.com/zcdk077/XLArig-termux/master/config.json
