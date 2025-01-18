@@ -32,16 +32,16 @@ echo "${LYL}Mempersiapkan konfigurasi${N}"
 sleep 2
 echo "${LYL}Memasang konfigurasi${N}"
 sleep 2
-echo "${LYLO}Mining dimulai dalam hitungan ke 3${N}"
+echo "${LYL}Mining dimulai dalam hitungan ke 3${N}"
 sleep 1
-echo "${RED}3${N}"
+echo "${GRN}3${N}"
 sleep 1
-echo "${RED}2${N}"
+echo "${GRN}2${N}"
 sleep 1
-echo "${RED}1${N}"
+echo "${GRN}1${N}"
 sleep 1
 clear
-echo "            ${PURP}Salam Receh Bosku . . . .${N}"
+echo "               ${PURP}Salam Receh Bosku . . . .${N}"
 echo ""
 echo ""
 echo ""
