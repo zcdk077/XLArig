@@ -1,30 +1,47 @@
 #!/bin/bash
 
-clear
-echo "Siap memulai mining ??"
-sleep 2
-echo "Mempersiapkan konfigurasi ."
-sleep 2
-echo "Mempersiapkan konfigurasi . ."
-sleep 2
-echo "Mempersiapkan konfigurasi . . ."
-sleep 2
-echo "Memasang konfigurasi"
-sleep 2
-echo "Salam Receh Bosku . . . ."
-sleep 2
-echo "Mining dimulai dalam hitungan ke 5"
-sleep 1
-echo "5"
-sleep 1
-echo "4"
-sleep 1
-echo "3"
-sleep 1
-echo "2"
-sleep 1
-echo "1"
-sleep 1
-clear
+N=$(echo -en '\033[0m')
+RD=$(echo -en '\033[07;31m') # tulisan diberi blok
+RED=$(echo -en '\033[00;31m')
+GR=$(echo -en '\033[07;32m') # tulisan diberi blok
+GRN=$(echo -en '\033[00;32m')
+YLW=$(echo -en '\033[00;33m')
+BLUE=$(echo -en '\033[00;34m')
+MTA=$(echo -en '\033[00;35m')
+LMA=$(echo -en '\033[20;36m')
+PURP=$(echo -en '\033[00;35m')
+CYAN=$(echo -en '\033[00;36m')
+LGRAY=$(echo -en '\033[00;38m')
+LRD=$(echo -en '\033[07;31m')
+LRED=$(echo -en '\033[01;31m')
+LGR=$(echo -en '\033[01;32m')
+LYL=$(echo -en '\033[01;33m')
+LYLO=$(echo -en '\033[07;33m') # tulisan diberi blok
+LBL=$(echo -en '\033[01;34m')
+LBLU=$(echo -en '\033[07;34m')
+LMA=$(echo -en '\033[01;35m')
+LPPLE=$(echo -en '\033[01;35m')
+LCY=$(echo -en '\033[01;36m')
+LCYN=$(echo -en '\033[07;36m')
+WHT=$(echo -en '\033[01;37m')
 
-~/XLArig/build/xlarig -c ~/XLArig/config.json
+clear
+echo "${RED}Siap memulai mining ??${N}"
+sleep 2
+echo "${LYL}Mempersiapkan konfigurasi${N}"
+sleep 2
+echo "${LYL}Memasang konfigurasi${N}"
+sleep 2
+echo "${LYLO}Mining dimulai dalam hitungan ke 3${N}"
+sleep 1
+echo "${RED}3${N}"
+sleep 1
+echo "${RED}2${N}"
+sleep 1
+echo "${RED}1${N}"
+sleep 1
+clear
+echo "            ${PURP}Salam Receh Bosku . . . .${N}"
+sleep 2
+
+~/XLArig/build/XLArig -c ~/XLArig/config.json
